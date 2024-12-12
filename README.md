@@ -1,50 +1,38 @@
-# faceblock-privacy-policy
-Privacy Policy for FaceBlock YouTube Extension
-
 # Privacy Policy for FaceBlock for YouTube
+Last Updated: 2024-12-12
 
-Last Updated: [2024-12-12]
+## Overview
+FaceBlock for YouTube is designed with user privacy as a top priority. This extension operates entirely locally within your browser and does not collect, store, or transmit any personal data.
 
-## Data Collection and Usage
-Our extension collects and processes the following types of data:
+## Data Storage and Processing
+- All filter preferences and settings are stored locally using Chrome's storage API
+- No data is ever transmitted to external servers
+- All content filtering occurs entirely within your browser
+- No user tracking or analytics are implemented
 
-1. **Personal Settings Data**
-   - Names for content filtering
-   - User preferences
-   - Display settings changes
+## Data Types
+The extension only stores:
+- Your filter keywords
+- Display settings (blur intensity, etc.)
+- Page preference settings (which pages to apply filters on)
 
-2. **Authentication Information**
-   - User authentication status
-   - Security preferences
-   - PIN settings (if implemented in future updates)
+All of this data:
+- Is stored only on your device
+- Can be viewed through the extension popup
+- Is completely removed when you uninstall the extension
 
-3. **Web Activity Data**
-   - User interaction with extension interface
-   - Web page filtering preferences
-   - Page display settings
+## User Control
+You have complete control over your data:
+- View your settings anytime through the extension popup
+- Modify or delete filters at will
+- Remove all data by uninstalling the extension
 
-## Data Storage and Protection
-- All data is stored locally on your device using Chrome's storage API
-- No data is transmitted to external servers
-- All processing occurs within your browser
-
-## Purpose of Data Collection
-- Personal Settings: To maintain your filtering preferences
-- Authentication: To ensure proper extension functionality
-- Web Activity: To provide effective content filtering
-
-## User Rights
-You have the right to:
-- View your stored data
-- Delete your data by removing the extension
-- Control your filtering preferences
-
-## Future Updates
-If we need to collect additional types of data in the future:
-- This policy will be updated
+## Updates
+If future updates require any changes to data handling:
+- This privacy policy will be updated
 - Users will be notified
-- Explicit consent will be required
-- Opt-out options will be provided
+- Any new features will be optional
 
 ## Contact
-For questions about this privacy policy, contact: [hjdh59@gmail.com]
+For questions about this privacy policy, contact:
+hjdh59@gmail.com
