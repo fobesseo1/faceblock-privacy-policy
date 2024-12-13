@@ -1,38 +1,52 @@
-# Privacy Policy for FaceBlock for YouTube
-Last Updated: 2024-12-12
+Privacy Policy for FaceBlock - Content Filter
+Last Updated: 2024-12-13
 
-## Overview
-FaceBlock for YouTube is designed with user privacy as a top priority. This extension operates entirely locally within your browser and does not collect, store, or transmit any personal data.
+Overview
+FaceBlock - Content Filter is designed with user privacy as a top priority. This extension operates locally within your browser with optional sync functionality, and minimizes data collection to essential features only.
 
-## Data Storage and Processing
-- All filter preferences and settings are stored locally using Chrome's storage API
-- No data is ever transmitted to external servers
-- All content filtering occurs entirely within your browser
-- No user tracking or analytics are implemented
+Data Storage and Processing
+* Most data is stored locally using Chrome's storage API
+* Optional sync feature uses Supabase for cross-device synchronization
+* All content filtering occurs entirely within your browser
+* No user tracking or analytics are implemented
 
-## Data Types
-The extension only stores:
-- Your filter keywords
-- Display settings (blur intensity, etc.)
-- Page preference settings (which pages to apply filters on)
+Data Types and Usage
+The extension stores:
+* Your content filter keywords
+* Display settings (blur intensity, display mode)
+* Page preference settings
+* IP address (only for sync feature)
 
-All of this data:
-- Is stored only on your device
-- Can be viewed through the extension popup
-- Is completely removed when you uninstall the extension
+Data Storage Location:
+1. Local Storage:
+  * Filter keywords
+  * Display preferences
+  * Page settings
+  All local data is stored only on your device
 
-## User Control
+2. Sync Storage (Optional):
+  * Filter keywords for cross-device synchronization
+  * IP address for user identification
+  This data is stored securely on Supabase servers
+
+User Control
 You have complete control over your data:
-- View your settings anytime through the extension popup
-- Modify or delete filters at will
-- Remove all data by uninstalling the extension
+* View and modify settings through the extension popup
+* Enable or disable sync functionality
+* Delete all data by uninstalling the extension
+* Request data deletion from sync servers
 
-## Updates
+Security
+* No sensitive personal information is collected
+* Sync feature uses secure API endpoints
+* Data transmission is encrypted
+* No third-party access to user data
+
+Updates
 If future updates require any changes to data handling:
-- This privacy policy will be updated
-- Users will be notified
-- Any new features will be optional
+* This privacy policy will be updated
+* Users will be notified
+* Any new features will be optional
 
-## Contact
-For questions about this privacy policy, contact:
-hjdh59@gmail.com
+Contact
+For questions about this privacy policy, contact: hjdh59@gmail.com
